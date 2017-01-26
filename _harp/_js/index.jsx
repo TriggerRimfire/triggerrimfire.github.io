@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ArticleList from './components/articleList.jsx'
+
 
 class App extends React.Component {
   render() {
     return(
-      <h1>Oooh. It's.. Working! Get the cake!</h1>
+      <ArticleList />
     )
   }
 }
